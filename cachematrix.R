@@ -16,9 +16,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function will compute the inverse of the matrix created in the previous function
-## and cache the results the first time it has run.  If the same matrix is passed through
+## and cache the results the first time it is run.  If the same matrix is passed through
 ## this function a 2nd time and nothing in the matrix has changed since the first run,
-## the inverse will be pulled from the cache.
+## the inverse will be pulled from the cache.  Otherwise it will recalculate the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
