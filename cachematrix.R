@@ -1,5 +1,5 @@
 ## The functions below create a matrix object that can cache its inverse, compute the 
-## inverse for that matrix, and return it from the cache on subsequent calls.
+## inverse for that matrix, and return the inverse from the cache on subsequent calls.
 
 makeCacheMatrix <- function(x = matrix()) {
         s <- NULL 
